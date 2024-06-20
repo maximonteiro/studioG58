@@ -28,6 +28,8 @@
 body{
     color: var(--cor6);
     background-color: var(--cor1);
+    width: 100%;
+    height: 100vh;
 }
 
 .navigation{
@@ -36,8 +38,9 @@ body{
     justify-content: space-between;
     padding: 18px 40px;
     width: 100%;
-    background-color: var(--cor6);
+    /*background-color: var(--cor6);*/
     transition: all 0.5s;
+    position: fixed;
 }
 
 .navigation a img{
@@ -74,4 +77,13 @@ body{
     background-color: var(--cor3);
     margin: 5px auto;
     transition: all 0.3s;
+}
+
+div.home-img{
+    display: flex;
+    width: 100%;
+    height: 18vh;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
 }
