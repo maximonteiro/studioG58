@@ -38,7 +38,6 @@ body{
     justify-content: space-between;
     padding: 18px 40px;
     width: 100%;
-    background-color: #ffffff0c;
     transition: all 0.5s;
     position: sticky;
 }
